@@ -1,4 +1,5 @@
-body {
-  /* URL, Hotspot Coordinates (0 0 is top-left), and Fallback (pointer/auto) */
-  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" shape-rendering="crispEdges"><path fill="%232c3e50" d="M12 4h10v2H12zm10 2h2v4h-2zm2 4h4v2h-4zm2 2h2v4h-2zm-6 4h4v2h-4zm-4 2h4v2h-4zm-4 2h4v2H8zm-2 2h2v4H6zm-2 4h2v2H4zm14-10h2v2h-2zm4 2h2v2h-2z"/></svg>') 0 0, auto;
+/* Tyrannosaurus Dinosaur - https://www.cursors-4u.com/cursor/tyrannosaurus-dinosaur */
+* {
+  cursor: url('https://cdn.cursors-4u.net/previews/tyrannosaurus-dinosaur-e65842d4-32.webp') 32 32, auto !important;
 }
+/* End www.Cursors-4U.com Code */

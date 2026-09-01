@@ -8,12 +8,12 @@
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 
 body {
-    background-color: #111;
+    background-color: #080808;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -35,16 +35,17 @@ a {
     justify-content: space-between;
     align-items: center;
 
-    background-color: #111;
+    background-color: #080808;
 
     padding: 15px 5%;
+
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    box-sizing: border-box; /* Garante que o padding de 5% não estoure a largura da tela */
-    z-index: 1000; /* Mantém a navbar acima de todo o conteúdo */
 
+    width: 100%;
+
+    z-index: 1000;
 }
 
 
@@ -68,11 +69,13 @@ a {
     text-decoration: none;
 
     font-size: 18px;
+
+    transition: 0.3s;
 }
 
 
 .lista-nav a:hover {
-    color: #ff3b3b;
+    color: #FFBE0A;
 }
 
 
@@ -88,11 +91,9 @@ a {
     padding: 60px;
 
     background-image:
-        linear-gradient(
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.8)
-        ),
-        url("../src/imgs/indieblog-jurassicparklogo-ogimage.webp");
+        linear-gradient(rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.85)),
+        url("../src/imgs/Jurassic-World-2-10-Copy.jpg");
 
     background-size: cover;
 
@@ -110,7 +111,7 @@ a {
 
     margin-bottom: 20px;
 
-    color: #ff3b3b;
+    color: #FFBE0A;
 }
 
 
@@ -131,7 +132,7 @@ a {
 
 
 .filme:nth-child(even) {
-    background-color: #181818;
+    background-color: #111820;
 }
 
 
@@ -148,6 +149,8 @@ a {
     width: 300px;
 
     border-radius: 5px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -157,7 +160,7 @@ a {
 
 
 .filme-texto h2 {
-    color: #ff3b3b;
+    color: #FFBE0A;
 
     font-size: 35px;
 
@@ -170,7 +173,7 @@ a {
 
     margin-bottom: 10px;
 
-    color: #e2c044;
+    color: #009FE3;
 }
 
 
@@ -190,7 +193,7 @@ iframe {
 
     height: 315px;
 
-    border: none;
+    border: 2px solid #4D4D4D;
 
     margin-top: 10px;
 }
@@ -215,7 +218,7 @@ iframe {
 
 
 .tributo-conteudo h2 {
-    color: #ff3b3b;
+    color: #FFBE0A;
 
     font-size: 40px;
 
@@ -231,11 +234,15 @@ iframe {
     color: #dddddd;
 }
 
+
 .tributo-conteudo img {
     width: 650px;
+
     border-radius: 20px;
+
     margin-left: 40px;
 }
+
 
 /* FOOTER */
 
@@ -313,5 +320,11 @@ footer p {
         width: 100%;
     }
 
-}
 
+    .tributo-conteudo img {
+        width: 100%;
+
+        margin-left: 0;
+    }
+
+}
