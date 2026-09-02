@@ -78,6 +78,10 @@ a {
     color: #FFBE0A;
 }
 
+.lista-nav a.active {
+    color: #FFBE0A;
+}
+
 
 /* HERO */
 
